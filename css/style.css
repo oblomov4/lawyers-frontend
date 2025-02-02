@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #140a32;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+}
+
+input[type='text'],
+input[type='number'] {
+  font-family: inherit;
+  font-size: 16px;
+  color: #2f2b43;
+}
+
+.header {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+.container {
+  max-width: 1150px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header__top-img {
+}
+
+.header__top-wrapper {
+  max-width: 427px;
+  width: 100%;
+  position: relative;
+}
+
+.header__top-wrapper::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/search.svg');
+  right: 20px;
+  top: 12px;
+}
+
+.header__top-search {
+  width: 100%;
+  border-radius: 14px;
+  border: none;
+  background-color: rgba(47, 43, 67, 0.04);
+  padding: 15px 55px 15px 15px;
+  position: relative;
+}
+
+.header__top-btn {
+  font-weight: 600;
+  background-color: #33836e;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 54px;
+  padding-right: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.header__top-btn::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/question.svg');
+  left: 20px;
+}
+
+.header__top-ul {
+}
+.header__top-phone {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.header__top-subphone {
+  color: #2f2b43;
+  opacity: 0.5;
+}
+.header__bottom {
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__btn-wrapper {
+  display: flex;
+  gap: 15px;
+}
+.nav-btn {
+  font-size: 16px;
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 10px;
+  padding: 11px 20px 11px 54px;
+  position: relative;
+}
+
+.nav-btn::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/phone.svg');
+  left: 21px;
+}
+
+.nav-telegram {
+  font-size: 16px;
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 10px;
+  padding: 11px 20px 11px 54px;
+  position: relative;
+}
+.nav-telegram::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/telegram.svg');
+  left: 21px;
+}
+.nav__panel {
+  display: flex;
+  gap: 30px;
+}
+.nav__panel-li {
+}
+.nav__panel-a {
+}
+.nav__login {
+  position: relative;
+  padding-left: 30px;
+}
+
+.nav__login::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/user.svg');
+  left: 0;
+  top: -3px;
+}
+.nav__login-a {
+}
