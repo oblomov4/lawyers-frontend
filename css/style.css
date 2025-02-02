@@ -39,6 +39,17 @@ input[type='number'] {
   color: #2f2b43;
 }
 
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  line-height: 160%;
+}
+
 .header {
   padding: 40px 0;
   margin-bottom: 40px;
@@ -210,7 +221,7 @@ input[type='number'] {
 }
 .promo__content {
 }
-.title {
+.promo__content-title {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -313,4 +324,105 @@ input[type='number'] {
 }
 
 .promo__inner-img {
+}
+
+.help {
+  margin-bottom: 80px;
+}
+
+.free {
+  margin-bottom: 80px;
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
+.free__inner {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.free__box {
+  max-width: 270px;
+  width: 100%;
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.free__box--call {
+  position: relative;
+}
+
+.free__box--call::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/call.svg');
+  top: 30px;
+  left: 20px;
+}
+
+.free__box--reply {
+  position: relative;
+}
+
+.free__box--reply::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/reply.svg');
+  top: 30px;
+  left: 20px;
+}
+
+.free__box--chat {
+  position: relative;
+}
+
+.free__box--chat::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/chat.svg');
+  top: 30px;
+  left: 20px;
+}
+
+.free__box--building {
+  position: relative;
+}
+
+.free__box--building::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/building.svg');
+  top: 30px;
+  left: 20px;
+}
+
+.free__box-subtitle {
+  margin-bottom: 15px;
+}
+
+.free__box-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.free__box-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #33836e;
+  padding: 0;
 }
