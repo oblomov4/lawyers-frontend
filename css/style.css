@@ -180,3 +180,137 @@ input[type='number'] {
 }
 .nav__login-a {
 }
+
+.main {
+}
+.bread-crumbs {
+}
+.container {
+}
+.bread-crumbs-ul {
+  display: flex;
+  gap: 10px;
+}
+.bread-crumbs-li {
+  color: #2f2b43;
+  opacity: 0.5;
+}
+.bread-crumbs-a {
+}
+
+.promo {
+  margin-bottom: 90px;
+}
+.container {
+}
+.promo__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo__content {
+}
+.title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.promo__content-subtitle {
+  font-size: 16px;
+  max-width: 657px;
+  line-height: 160%;
+  margin-bottom: 30px;
+}
+.promo__content-inner {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.promno__content-btn {
+  background-color: #33836e;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 16px 36px;
+}
+.promo__content-ul {
+}
+.promo__content-phone {
+  font-weight: 700;
+  font-size: 24px;
+  color: #33836e;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #33836e;
+  justify-self: start;
+  margin-bottom: 5px;
+}
+.promo__content-subphone {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.promo__content-list {
+  display: flex;
+  gap: 30px;
+}
+.promo__content-item {
+  padding-left: 35px;
+}
+
+.promo__content-item--time {
+  position: relative;
+}
+
+.promo__content-item--time::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/time.svg');
+  left: 0;
+  top: -3px;
+}
+
+.promo__content-item--free {
+  position: relative;
+}
+
+.promo__content-item--free::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/free.svg');
+  left: 0;
+  top: -3px;
+}
+
+.promo__content-item--anonym {
+  position: relative;
+}
+
+.promo__content-item--anonym::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/anonym.svg');
+  left: 0;
+  top: -3px;
+}
+
+.promo__content-item--fast {
+  position: relative;
+}
+
+.promo__content-item--fast::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/fast.svg');
+  left: 0;
+  top: -3px;
+}
+
+.promo__inner-img {
+}
