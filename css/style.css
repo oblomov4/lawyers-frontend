@@ -426,3 +426,340 @@ input[type='number'] {
   color: #33836e;
   padding: 0;
 }
+
+.information {
+  margin-bottom: 80px;
+}
+.container {
+}
+.information__inner {
+  min-height: 200px;
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  position: relative;
+}
+.information__left {
+  position: absolute;
+  left: 313px;
+  top: 50px;
+}
+.information__left-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.information__left-phone {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+.information__right {
+  position: absolute;
+  top: 38px;
+  right: 50px;
+}
+.information__right-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.information__right-box {
+  position: relative;
+}
+
+.information__right-img--two {
+  position: absolute;
+  left: 33px;
+}
+.information__right-img--three {
+  position: absolute;
+  left: 66px;
+}
+.information__right-img--four {
+  position: absolute;
+  left: 99px;
+}
+.information__right-img--six {
+  position: absolute;
+  left: 132px;
+}
+.information__right-img--seven {
+  position: absolute;
+  left: 165px;
+}
+
+.count-lawyer {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 50px;
+  top: 0;
+  left: 198px;
+}
+
+.count-lawyer span {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.our-help {
+  margin-bottom: 80px;
+}
+.container {
+}
+.title {
+}
+.our-help__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.our-help__box {
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 35px 30px;
+  gap: 20px;
+}
+.our-help__box-p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.our-help__box-p span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.why-we {
+  margin-bottom: 80px;
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
+.why-we__subtitle {
+  max-width: 560px;
+  margin-bottom: 30px;
+}
+.why-we__inner {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 88px;
+}
+.why-we__list {
+}
+.why-we__green {
+  font-size: 28px;
+  color: #33836e;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.why-we__black {
+}
+.why-we__call {
+  background-color: #33836e;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  min-height: 200px;
+  align-items: center;
+  position: relative;
+}
+
+.why-we__call-decor {
+  position: absolute;
+  right: 0;
+  top: -385px;
+}
+.why-we__call-left {
+}
+.why-we__call-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+.why-we__call-phone {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+.why-we__call-right {
+}
+.why-we__call-order {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.why-we-panel {
+  position: relative;
+  margin-bottom: 22px;
+  display: flex;
+  gap: 15px;
+}
+
+.why-we-panel::before {
+  content: 'Номер телефона';
+  font-family: 'Open Sans', serif;
+  font-size: 12px;
+  opacity: 0.4;
+  position: absolute;
+  left: 16px;
+  top: 7px;
+}
+
+.why-we__input {
+  max-width: 250px;
+  width: 100%;
+  padding: 16px 16px 8px 16px;
+  min-height: 56px;
+}
+.why-we__btn {
+  max-width: 207px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.why-we__call-politic {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.special {
+  margin-bottom: 80px;
+}
+.container {
+}
+.title {
+}
+.special__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.special__box {
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 20px;
+  min-height: 287px;
+  padding: 20px;
+}
+.special__title {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.special__box-img {
+}
+.special__box-title {
+  border-bottom: 1px solid #33836e;
+}
+.special__box-subtitle {
+}
+
+.question {
+  margin-bottom: 80px;
+}
+.container {
+}
+.question__inner {
+  background-color: rgba(47, 43, 67, 0.04);
+  display: flex;
+  gap: 40px;
+  padding: 51px 10px 61px 53px;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+.question__title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  max-width: 295px;
+}
+.question__center {
+  position: relative;
+}
+
+.question__center::before {
+  content: 'Номер телефона';
+  position: absolute;
+  font-size: 12px;
+  opacity: 0.4;
+  top: 7px;
+  left: 16px;
+}
+.question__panel {
+  display: flex;
+  gap: 15px;
+  min-height: 56px;
+  margin-bottom: 18px;
+}
+.question__panel-input {
+  max-width: 201px;
+  width: 100%;
+  padding: 26px 16px 8px 16px;
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 10px;
+}
+.question__panel-btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #33836e;
+  border-radius: 10px;
+  padding: 16px 36px;
+}
+.question__center-p {
+  font-size: 12px;
+  opacity: 0.4;
+  max-width: 292px;
+}
+
+.question__inner-img {
+  position: absolute;
+  right: 0;
+}
+
+.seo {
+  margin-bottom: 80px;
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
+.seo-hidden {
+  display: none;
+}
+.seo_btn {
+  margin-top: 46px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #33836e;
+  font-size: 16px;
+  background-color: #e0ece9;
+  padding: 16px;
+  border-radius: 10px;
+}
