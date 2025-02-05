@@ -763,3 +763,304 @@ input[type='number'] {
   padding: 16px;
   border-radius: 10px;
 }
+
+.reviews {
+  margin-bottom: 80px;
+}
+
+.reviews__swiper {
+  position: relative;
+  margin-top: 30px;
+}
+
+.reviews__slide {
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 20px;
+  min-height: 421px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.reviews__header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.reviews__header-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.reviews__header-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.subtitle {
+}
+.reviews__subtitle {
+}
+.reviews__bottom {
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+.reviews__bottom-question {
+  font-size: 14px;
+  opacity: 0.4;
+  margin-bottom: 12px;
+}
+.reviews__bottom-user {
+  font-size: 16px;
+  line-height: 150%;
+  color: #33836e;
+}
+
+.reviews-button-next {
+  position: absolute;
+  z-index: 10000;
+  right: -72px;
+  top: 185px;
+  cursor: pointer;
+}
+
+.reviews-button-prev {
+  position: absolute;
+  z-index: 10000;
+  left: -72px;
+  top: 185px;
+  cursor: pointer;
+}
+
+.swiper {
+  padding-left: 1px;
+}
+
+.portal {
+  margin-bottom: 80px;
+}
+.container {
+}
+.portal__inner {
+  display: flex;
+  gap: 20px;
+}
+.portal__lawyears {
+  max-width: 463px;
+  width: 100%;
+}
+.portal__box {
+  border: 1px solid rgba(47, 43, 67, 0.2);
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  min-height: 124px;
+}
+.portal__box-img {
+}
+.portal__box-content {
+}
+.portal__box-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.portal__box-city {
+  margin-bottom: 10px;
+}
+.portal__box-count {
+  opacity: 0.5;
+}
+
+.portal__box-btn {
+  background-color: #e0ece9;
+  color: #33836e;
+  width: 100%;
+  display: block;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 16px;
+}
+.portal__form {
+  background-color: #33836e;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  position: relative;
+}
+.portal__form-title {
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.portal__form-question {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.portal__form-info {
+  background-color: #fff;
+  position: absolute !important;
+  width: 115px;
+  border-radius: 10px;
+  top: 30px;
+  right: 30px;
+  text-align: center;
+  padding: 5px 16px 6px 38px;
+}
+
+.online {
+  position: relative;
+}
+
+.online::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #12b76a;
+  border-radius: 50%;
+  left: 16px;
+  top: 7px;
+}
+
+.offline {
+  position: relative;
+}
+
+.offline::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #ef0014;
+  border-radius: 50%;
+  left: 16px;
+  top: 7px;
+}
+
+.form {
+}
+.form__textarea {
+  width: 100%;
+  min-height: 213px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px 16px;
+  display: block;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.form__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form__wrapper-number {
+  position: relative;
+}
+
+.form__wrapper-number::before {
+  content: 'Номер телефона';
+  position: absolute;
+  opacity: 0.4;
+  left: 16px;
+  top: 7px;
+}
+
+.form__wrapper-name {
+  position: relative;
+}
+
+.form__wrapper-name::before {
+  content: 'Ваше имя';
+  position: absolute;
+  opacity: 0.4;
+  left: 16px;
+  top: 7px;
+}
+
+.form__input-number {
+  max-width: 205px;
+  width: 100%;
+  padding: 26px 16px 8px 16px;
+  border-radius: 10px;
+  border: none;
+}
+.form__input-name {
+  max-width: 205px;
+  width: 100%;
+  padding: 26px 16px 8px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form__input-btn {
+  max-width: 137px;
+  width: 100%;
+  color: #fff;
+  background-color: #140a32;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.portal__form-politic {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+.portal__form-box {
+  display: flex;
+  gap: 42px;
+}
+.portal__form-ul {
+}
+.portal__form-li {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.portal__form-bold {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.directory {
+}
+.container {
+}
+.title {
+}
+.directory__inner {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+}
+.directory__box {
+}
+.directory__box-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.directory__box-ul {
+}
+.directory__box-li {
+  margin-bottom: 10px;
+}
+.directory__box-a {
+}
