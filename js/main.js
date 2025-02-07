@@ -111,3 +111,9 @@ if (orderCallClose) {
     orderCall.classList.remove('open');
   };
 }
+
+const freeOrderCall = document.getElementById('free-order-call');
+
+freeOrderCall.onclick = (e) => {
+  document.querySelector('.order__call').classList.add('open');
+};

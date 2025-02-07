@@ -22,7 +22,7 @@
             <div class="header__top-wrapper">
               <input class="header__top-search" type="text" placeholder="Я хочу найти..." />
             </div>
-            <a href="#portal" class="header__top-btn">Задать вопрос</a>
+            <a href="#ask" class="header__top-btn">Задать вопрос</a>
             <ul class="header__top-ul">
               <li class="header__top-phone">8 800 302-92-70</li>
               <li class="header__top-subphone">Бесплатный звонок юристу 24/7</li>
@@ -110,7 +110,7 @@
             <div class="nav__btn-wrapper nav__btn-mobile">
               <button id="order-call-burger" class="nav-btn">Заказать звонок</button>
               <a href="#" class="nav__panel-a nav-telegram nav-telegram-mobile">Telegram</a>
-              <a href="#portal" class="nav__panel-a header__top-btn header__top-btn-mobile"
+              <a href="#ask" class="nav__panel-a header__top-btn header__top-btn-mobile"
                 >Задать вопрос</a
               >
             </div>
@@ -191,7 +191,7 @@
                 прозрачные, понятные условия сотрудничества
               </p>
               <div class="promo__content-inner">
-                <a href="#portal" class="promno__content-btn">Задать вопрос юристу</a>
+                <a href="#ask" class="promno__content-btn">Задать вопрос юристу</a>
                 <ul class="promo__content-ul">
                   <li class="promo__content-phone">8 800 302-92-70</li>
                   <li class="promo__content-subphone">Бесплатный звонок юристу 24/7</li>
@@ -245,12 +245,12 @@
               <p class="subtitle free__box-subtitle">
                 Задать свой вопрос на сайте и получить ответ онлайн
               </p>
-              <button class="free__box-btn">Задать вопрос</button>
+              <a href="#ask" class="free__box-btn">Задать вопрос</a>
             </div>
 
             <div class="free__box free__box--chat">
               <p class="subtitle free__box-subtitle">Отправить запрос на обратный звонок юриста</p>
-              <button class="free__box-btn">Отправить запрос</button>
+              <button id="free-order-call" class="free__box-btn">Отправить запрос</button>
             </div>
 
             <div class="free__box free__box--building">
@@ -984,7 +984,7 @@
               <p class="portal__form-question">Напишите ваш вопрос мы обязательно вам ответим</p>
               <div class="portal__form-info online">Онлайн</div>
 
-              <form class="form">
+              <form class="form" id="ask">
                 <textarea class="form__textarea" placeholder="Опишите вашу проблему..."></textarea>
                 <div class="form__wrapper">
                   <div class="form__wrapper-number">
