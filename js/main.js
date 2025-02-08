@@ -101,6 +101,8 @@ closeSearch.onclick = () => {
 const orderCallBtn = document.getElementById('order-call');
 const orderCall = document.querySelector('.order__call');
 const orderCallClose = document.querySelector('.order__call-close');
+const send = document.getElementById('send');
+const callResponse = document.querySelector('.call__response');
 
 orderCallBtn.onclick = (e) => {
   orderCall.classList.add('open');
@@ -109,6 +111,25 @@ orderCallBtn.onclick = (e) => {
 if (orderCallClose) {
   orderCallClose.onclick = (e) => {
     orderCall.classList.remove('open');
+  };
+}
+
+if (send) {
+  send.onclick = (e) => {
+    orderCall.classList.remove('open');
+    callResponse.classList.add('open');
+  };
+}
+
+const callResponseBtn = document.getElementById('call-response-btn');
+const closeCallResponse = document.getElementById('close-call-response');
+
+if (callResponseBtn || closeCallResponse) {
+  closeCallResponse.onclick = () => {
+    callResponse.classList.remove('open');
+  };
+  callResponseBtn.onclick = () => {
+    callResponse.classList.remove('open');
   };
 }
 

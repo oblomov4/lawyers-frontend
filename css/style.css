@@ -393,6 +393,58 @@ input[type='number'] {
   left: 0;
 }
 
+.call__response {
+  position: fixed;
+  width: 100%;
+  min-height: 397px;
+  z-index: 6000;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  max-width: 1150px;
+  padding: 0 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid rgba(47, 43, 67, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  text-align: center;
+  padding: 60px;
+}
+
+.call__response.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.call__response-title {
+  margin-bottom: 10px;
+}
+
+.call__response-subtitle {
+  margin-bottom: 30px;
+}
+.call__response-ok {
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.call__response-btn {
+  background-color: #33836e;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 10px;
+  padding: 16px 36px;
+}
+.call__response-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 .bread-crumbs-ul {
   display: flex;
   gap: 10px;
